@@ -1,0 +1,64 @@
+﻿.user-button {
+    background-color: lightblue; /* Green */
+    border: 2px solid blue;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.user-button:hover {
+    background-color: white; /* Green */
+    border: 2px solid blue;
+    color: black;
+    cursor: pointer;
+}
+
+input {
+    width: 320px;
+    padding: 7px;
+    margin: 8px;
+    font-size: 16px;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.error {
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+
+.error-button {
+    background-color: rgba(256, 0, 0, 0.2); /* Green */
+    border: 2px solid red;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.error-button:hover {
+    background-color: white; /* Green */
+    border: 2px solid red;
+    color: black;
+    cursor: pointer;
+}
